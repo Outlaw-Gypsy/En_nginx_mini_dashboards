@@ -41,6 +41,9 @@ nginx -t
 
 
 ## 🚀 NGINX Server Status
+```bash
+brew services list
+```
 ![Nginx status](screenshots/nginx-running.png)
 
 ---
@@ -100,7 +103,9 @@ nginx -s reload
 ```
 ### Open:
 ```
-http://localhost:8080
+http://localhost:8080 - Home page
+http://localhost:8080/about - About page
+http://localhost:8080/status - Status page
 ```
 
 
