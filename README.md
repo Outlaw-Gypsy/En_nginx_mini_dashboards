@@ -34,8 +34,8 @@ This project demonstrates how to configure and deploy a simple multi-page websit
 
 ## 🧪 NGINX Configuration Test
 
-```bash
-nginx -t```
+bash
+nginx -t
 ![Nginx test](screenshots/nginx-text-success.png)
 
 
@@ -58,7 +58,7 @@ nginx -t```
 ---
 
 ## 📂 Project Structure
-```nginx-mini-dashboard/
+nginx-mini-dashboard/
 │
 ├── html/
 │   ├── index.html
@@ -77,7 +77,6 @@ nginx -t```
 │   └── status_page.png
 │
 └── README.md
-```
 ---
 
 ## 📌 Key Learnings
