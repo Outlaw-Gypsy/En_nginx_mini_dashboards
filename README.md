@@ -1,25 +1,41 @@
 # NGINX MINI DASHBOARD PROJECT
 
-## THE PROJECT WAS DESIGNED TO CREATE MULTIPLE HTML FILES AND PUT THEM UNDER ONE SERVER AND ALSO CREATE ALIASES FOR THESE PAGES FOR EASY ROUTING
+## 📌 Project Overview
 
-### HOW THE NGINX.CONF FILE SHOULD LOOK LIKE AFTER EDITING
-	![Nginx configuration](screenshots/nginx_conf.png)
+This project demonstrates how to configure and deploy a simple multi-page website using NGINX as a web server. It serves multiple HTML pages locally and configures clean routing for each page.
 
-### NGINX TEST
-	![Nginx test](screenshots/nginx-text-success.png)
+---
 
-### NGINX RUNNING
-	![Nginx running](screenshots/nginx-running.png)
+## ⚙️ Technologies Used
 
-### HOME PAGE
-	![Home page](screenshots/home_page.png)
+- NGINX Web Server  
+- HTML5  
+- Bash Terminal  
+- Git & GitHub  
 
-### ABOUT PAGE
-	![About page](screenshots/about_page.png)
+---
 
-### STATUS PAGE
-	![Status page](screenshots/status_page.png)
+## 🎯 Project Objectives
+
+- Install and run NGINX locally  
+- Host multiple HTML pages on a single server  
+- Configure routing using NGINX location blocks  
+- Validate configuration using nginx -t  
+- Document the process with screenshots  
+- Push project to GitHub  
+
+---
+
+## 🌐 NGINX Configuration
+
+![Nginx configuration](screenshots/nginx_conf.png)
+
+---
+
+## 🧪 NGINX Configuration Test
+
+```bash
+nginx -t
 
 
-
-
+## 🚀 NGINX Server Status
