@@ -36,6 +36,77 @@ This project demonstrates how to configure and deploy a simple multi-page websit
 
 ```bash
 nginx -t
+![Nginx test](screenshots/nginx-text-success.png)
 
 
 ## 🚀 NGINX Server Status
+![Nginx status](screenshots/nginx-running.png)
+
+---
+
+# 🏠 Web Pages
+
+## Home page
+![Home page](screenshots/home_page.png)
+
+## About Page
+![About Page](screenshots/about_page.png)
+
+## Status Page
+![Status page](screenshots/status_page.png)
+
+---
+
+## 📂 Project Structure
+nginx-mini-dashboard/
+│
+├── html/
+│   ├── index.html
+│   ├── about.html
+│   └── status.html
+│
+├── configs/
+│   └── nginx.conf
+│
+├── screenshots/
+│   ├── nginx_conf.png
+│   ├── nginx-text-success.png
+│   ├── nginx-running.png
+│   ├── home_page.png
+│   ├── about_page.png
+│   └── status_page.png
+│
+└── README.md
+
+---
+
+## 📌 Key Learnings
+
+* How NGINX serves static websites
+* How routing works using location blocks
+* How to test and reload NGINX safely
+* Git and GitHub workflow basics
+
+---
+
+## 🚀 How to Run
+
+brew services start nginx
+nginx -t
+nginx -s reload
+
+### Open:
+
+http://localhost:8080
+
+
+
+
+
+
+ 
+
+
+
+
+
